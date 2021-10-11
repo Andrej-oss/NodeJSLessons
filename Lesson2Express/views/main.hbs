@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+{{#if isOk}}
+<div>{{username}} Hello</div>
+{{else}}
+<div>{{username}} Buy</div>
+{{/if}}
+</div>
+<form action='/login' method='post'>
+<input type='text' placeholder='name' name='name'/>
+<input type='password' placeholder='password' password='password'/>
+<input type='submit' value='ok'/>
+</form>
+</body>
+</html>
