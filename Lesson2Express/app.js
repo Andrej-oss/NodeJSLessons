@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const path = require('path');4
+const path = require('path');
 const hbs = require('express-handlebars');
 
 const users = [{name: 'sad', age: 123}, {name: 'sj', age: 18}, {name: 'dsf', age: 13}]
