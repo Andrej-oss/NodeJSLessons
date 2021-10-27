@@ -1,5 +1,4 @@
-const userService = require('../services/users.service');
-const { ErroreHandler, errores } = require('../error/index');
+  const { ErroreHandler, errores } = require('../error/index');
 const passwordHasher = require('../helpers/passwor.hasher');
 
 module.exports = {
@@ -15,6 +14,7 @@ module.exports = {
     },
     getUsers: async (req, res) => {
         try {
+            if (req.query) console.log(req.query);
             let users = await userService.getAllUsers();
             res.json(users);
         } catch (e) {
