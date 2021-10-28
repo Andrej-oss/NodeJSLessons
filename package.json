@@ -1,0 +1,17 @@
+{
+  "name": "NodeJSLessons",
+  "version": "1.0.0",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "email-templates": "^8.0.8",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/email-templates": "^8.0.4",
+    "@types/express": "^4.17.13",
+    "@types/express-handlebars": "^5.3.1",
+    "@types/node": "^14.17.32",
+    "@types/nodemailer": "^6.4.4",
+    "@types/pug": "^2.0.5"
+  }
+}
