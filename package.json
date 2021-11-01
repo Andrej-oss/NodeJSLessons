@@ -4,14 +4,21 @@
   "dependencies": {
     "bcrypt": "^5.0.1",
     "email-templates": "^8.0.8",
-    "pug": "^3.0.2"
+    "express-fileupload": "^1.2.1",
+    "express-upload": "^0.1.0",
+    "fs-extra": "^10.0.0",
+    "pug": "^3.0.2",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@types/email-templates": "^8.0.4",
     "@types/express": "^4.17.13",
+    "@types/express-fileupload": "^1.1.7",
     "@types/express-handlebars": "^5.3.1",
+    "@types/fs-extra": "^9.0.13",
     "@types/node": "^14.17.32",
     "@types/nodemailer": "^6.4.4",
-    "@types/pug": "^2.0.5"
+    "@types/pug": "^2.0.5",
+    "@types/uuid": "^8.3.1"
   }
 }
